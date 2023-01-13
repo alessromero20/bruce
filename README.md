@@ -1,57 +1,42 @@
-# FLW 01.2 // Code Along & Solo // Class Portfolio
-
-<p>This is your class portfolio! The portfolio includes information about the company, class, Code Nation, and links to all students' portfolios (as they get completed).</p>
-<p>This portfolio will allow us to practice our HTML and CSS and is a great one-stop-shop for your program information.</p>
+# FLW 02.1 // Code Along & Solo // Functions - No Parameters
 
 
-## Set up
+## Code Along
 
-- [ ] Fork your own copy of the repl.
-- [ ] Double-check that you are signed in with your GitHub account.
-
-
-## HTML
-
-1. [ ] Update the company name on the about page.
-2. [ ] Include a few facts about the company. Try making this an unordered list!
-3. [ ] On the same page, write a short bio about yourself.
-4. [ ] Include an image that represents something about you - this could be a picture of yourself, an interest of yours, or maybe some art you created!
-5. [ ] On the home page (index.html), update with the correct company name.
-6. [ ] Then, replace the placeholder image with a company logo/image.
-7. [ ] On this same page, add a link to your Fellowship Agenda.
-8. [ ] On the contact page, update the page with your program information.
-9. [ ] Add your contact information to your contact page, including your:
-    - [ ] GitHub account
-    - [ ] Email address
-    - [ ] LinkedIn (if you already have one)
-    - [ ] Resume (if you already have one)
-
-## CSS
-
-10. [ ] Choose 2-4 colors for your theme and add them as font or background colors.
-11. [ ] Add flexbox to the div with class name `navBar`.
-12. [ ] Style your nav bar so the links change color/style when your hover over them.
-13. [ ] Add at least 1 Google Font - either for the headers or paragraphs. Or both! Also, make sure it's linked in the html pages you want it used on!
-14. [ ] Add a border to the images on the home page.
-
-## Wrap-Up
-
-- [ ] Save your changes and push to GitHub
-- [ ] Submit your project link - the url in your web browser - to the Project Submission form.
+### Create a function that multiplies a number by 2 and returns the multiplied number: 
+1. [x] Declare a function and name it `multiplyByTwo`
+2. [ ] Inside the function, declare a variable called `num`
+3. [ ] Set `num` to equal the number 3
+4. [ ] Multiply `num` by 2
+5. [ ] Return the multiplied number
+6. [ ] Save the function call `multiplyByTwo` in a variable named `result1`
+7. [ ] Print `result1` to the `multiplyResult` div
 
 
 
-## Extensions
+## Code It Solo
 
-- [ ] Add a unordered or ordered list of your accomplishments or favorite things to your about page.
-- [ ] Make sure all your external links open up into new tabs.
-- [ ] Add a button that slides information up and down when clicked.
-- [ ] Create a link that pops open the email browser with your email address in the to: field.
+### Create a function that returns a greeting to a person that includes their name:
+
+8. [ ] Declare a function and name it `greetByName`
+9. [ ] Inside the function, declare a variable called `firstName`
+10. [ ] Set `firstName` equal to a string of your first name
+11. [ ] Do the same, but for your last name
+12. [ ] Use string interpolation to add a greeting in front of your name
+      - Example: Hello, Hi, Welcome, Hola
+13. [ ] Return the greeting and your name
+14. [ ] Save the function call `greetByName` in a variable named `result2`
+15. [ ] Print `result2` to the `greetingResult` div
 
 
-## References/Tools
+## Challenge!
+### Create a function that returns whether a person can vote based on their age. 
 
-* [Fellowship Reference Table](https://docs.google.com/document/d/1qrY2OC-6S04oOXZlYmXja7lmKBmdApR-HXJkhfd67e8/edit)
-* [W3Schools] (https://www.w3schools.com/)
-* [MDN web docs] (https://developer.mozilla.org/en-US/)
-* [Introduction to Bootstrap] (https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+HINTS:
+- Inside the function, set an `age` variable to number 18.
+- You will need to use a conditional statement!
+  -   If the age is equal to or greater than 18, "Go vote!" should be printed to the `votingResult` div. Otherwise, "Can't vote quite yet!" should be printed.
+- Save the function call to a variable.
+- Call the variable to run the function (no parentheses needed after the variable name!)
+  
+</br>
